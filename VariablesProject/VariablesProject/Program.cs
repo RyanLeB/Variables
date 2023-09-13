@@ -14,6 +14,11 @@ namespace VariablesProject
             Console.WriteLine("--------------");
             Console.WriteLine();
 
+
+            // score
+            int score;
+
+
             Console.WriteLine("Press any key to exit");
             Console.ReadKey();
         
