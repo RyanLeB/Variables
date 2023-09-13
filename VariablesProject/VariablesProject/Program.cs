@@ -22,7 +22,7 @@ namespace VariablesProject
             int enemyValue;
             string realName;
             string gamerTag;
-            float percentile;
+            float percentile; // 0.0 , 100.0
 
             
             
@@ -37,12 +37,12 @@ namespace VariablesProject
             // pretend gameplay
             score = score + enemyValue; // "=" means assign or get value
             // score += enemyValue; "+=" same thing as ^
-
+            percentile = 290000.0f / 300000.0f * 100;
             // hud
             Console.WriteLine(realName + " (" + gamerTag + ")");
             
             Console.WriteLine("Score: " + score);
-            Console.WriteLine("Percentile Rank: " + percentile);
+            Console.WriteLine("Percentile Rank: " + percentile + " %");
             
             Console.WriteLine();
             Console.WriteLine("Hi, " + realName + ". " + "How are you?");
