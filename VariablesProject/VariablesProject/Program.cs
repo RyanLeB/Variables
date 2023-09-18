@@ -10,8 +10,9 @@ namespace VariablesProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Variables.");
-            Console.WriteLine("--------------");
+            Console.WriteLine("Ryan Studios");
+            Console.WriteLine();
+            Console.WriteLine("The Best Game of All Time");
             Console.WriteLine();
 
             // whole number = integer (0,1,2,3,-1,-2)
@@ -23,10 +24,13 @@ namespace VariablesProject
             string realName;
             string gamerTag;
             float percentile; // 0.0 , 100.0
+            int shield;
+            int health;
 
-            
-            
+
             // initializing 
+            health;
+            shield = 100;
             enemyValue = 250;
             score = 0;
             realName = "Ryan LeBlanc";
@@ -39,13 +43,13 @@ namespace VariablesProject
             // score += enemyValue; "+=" same thing as ^
             percentile = 290000.0f / 300000.0f * 100;
             // hud
-            Console.WriteLine(realName + " (" + gamerTag + ")");
+            Console.WriteLine(realName + " (" + gamerTag + ")"); 
             
             Console.WriteLine("Score: " + score);
             Console.WriteLine("Percentile Rank: " + percentile + " %");
             
             Console.WriteLine();
-            Console.WriteLine("Hi, " + realName + ". " + "How are you?");
+            
 
 
 
